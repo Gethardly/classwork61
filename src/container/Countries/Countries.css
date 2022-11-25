@@ -1,0 +1,21 @@
+.blocks {
+    display: flex;
+}
+
+.sideBar {
+    width: 30%;
+    max-height: 500px;
+    overflow-y: scroll;
+    border: 2px solid #000;
+}
+
+.countryName {
+    display: block;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.countryName:hover {
+    cursor: pointer;
+    background: lightgoldenrodyellow;
+}
